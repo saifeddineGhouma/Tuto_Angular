@@ -8,6 +8,10 @@ import { FirstComponent } from './first/first.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+name:string="saifeddien"
+last_name:string="ghouma"
+email:string="saifeddine@yahoo.fr"
+date_Ne:string="24/11/1992"
   title = 'firstApp';
   constructor(private mylogin:LoginService)
   {
